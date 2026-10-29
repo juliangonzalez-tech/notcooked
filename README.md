@@ -6,6 +6,8 @@ A student-first planner that turns scattered coursework into a clear next step.
 
 **Status:** currently in private beta. NotCooked's source code is private; this repository contains documentation and screenshots only. All screenshots use fictional demo data.
 
+**Role:** Founder & Lead Developer. I designed and developed the mobile interface, assignment-planning logic, import and review flows, Firebase data layer, reminders, Focus, Undo that stays until dismissed, and sync/retry/rollback behavior. Development began in April 2026.
+
 ## The problem
 
 - Assignments are scattered across systems: a learning platform, Google Classroom, a teacher's announcement, a photo of a worksheet.
@@ -54,6 +56,10 @@ NotCooked answers one question: what do I need to do right now? Three screens, e
 
 NotCooked has been beta-tested with 25+ students and has been iterated using their feedback.
 
+### Feedback in action
+
+One tester wanted the app to recommend what to do next without taking away control. I added explanations and an override to the next-task recommendation, then retested the flow.
+
 ## Technology
 
 NotCooked is an Expo (React Native) app that uses Firebase for authentication and data. Sensitive credentials, such as the connection to Google Classroom, are kept in the device's secure storage. The core logic is covered by automated tests.
@@ -69,4 +75,4 @@ Created by Julian Gonzalez, founder and developer. [GitHub profile](https://gith
 
 ## Copyright
 
-© 2026 Julian Gonzalez. All rights reserved. The NotCooked name, brand and the screenshots in this repository may not be reused without permission. NotCooked's source code is private and is not licensed for use.
+© 2026 Julian Gonzalez. All rights reserved. The original documentation and screenshots in this repository may not be reused without permission. NotCooked’s source code is private and is not licensed for use.
