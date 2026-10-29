@@ -56,7 +56,7 @@ NotCooked has been beta-tested with 25+ students and has been iterated using the
 
 ## Technology
 
-Built with Expo (React Native) and Firebase for authentication and data. Sensitive credentials, such as the connection to Google Classroom, are kept in the device's secure storage. The core logic is covered by automated tests.
+NotCooked is an Expo (React Native) app that uses Firebase for authentication and data. Sensitive credentials, such as the connection to Google Classroom, are kept in the device's secure storage. The core logic is covered by automated tests.
 
 ## More
 
